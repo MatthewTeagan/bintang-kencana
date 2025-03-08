@@ -132,6 +132,9 @@ footer{
     }
     .phonetext{
         visibility: visible;
+    .banner{
+        visibility: collapse;
+        
     }
     
 }
