@@ -126,3 +126,12 @@ footer{
 .box .col-4 h4{
     margin: 20px 0;
 }
+@media only screen and (max-width: 414px){
+    .text{
+        visibility: collapse;
+    }
+.phonetext{
+    visibility: visible;
+}
+    
+}
