@@ -131,6 +131,6 @@ footer{
         visibility: collapse;
     }
     .container{
-        visibility: collapse;
+        visibility: visible;
     }
 }
