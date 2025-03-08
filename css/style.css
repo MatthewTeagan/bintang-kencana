@@ -126,7 +126,7 @@ footer{
 .box .col-4 h4{
     margin: 20px 0;
 }
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 600px){
     .text{
         visibility: collapse;
     }
