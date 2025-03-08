@@ -128,7 +128,7 @@ footer{
 }
 @media only screen and (max-width: 600px){
     .banner{
-        visibility: collapse;
+        visibility: visible;
     }
     .container{
         visibility: visible;
