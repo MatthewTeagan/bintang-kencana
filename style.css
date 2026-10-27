@@ -10,3 +10,82 @@
 
 @media(min-width:761px){.hero-content{min-height:610px;padding-top:70px;padding-bottom:70px}.hero{min-height:610px}}
 @media(max-width:760px){.hero{background-position:58% center}.hero:before{background:linear-gradient(90deg,rgba(8,22,40,.95),rgba(8,22,40,.75))}.hero-content{min-height:460px}}
+
+/* White-background industrial homepage refresh */
+:root{--navy:#10243a;--navy-2:#0d5fbd;--gold:#0969d8;--gold-light:#e5f0ff;--ink:#10243a;--muted:#5d6c80;--paper:#f7f9fc;--white:#fff;--line:#e0e6ee}
+.topbar{display:none}
+.site-header{background:#fff;border-bottom:1px solid #edf0f4}
+.nav-wrap{min-height:96px}
+.brand{gap:13px;color:#10243a}
+.brand-logo{width:255px;height:auto;display:block;max-height:82px;object-fit:contain;object-position:left center;flex-shrink:0}
+.footer-logo{width:54px;max-height:none}
+.brand-text strong{color:#10243a}
+.main-nav a{color:#10243a;font-size:14px;font-weight:600}
+.main-nav a:hover,.text-link:hover{color:#0969d8}
+.button{border-radius:7px}
+.button-gold{background:#0969d8;color:#fff}
+.button-gold:hover{background:#0757b5}
+.button-outline{border:1px solid #0969d8;color:#0969d8;background:transparent}
+.button-outline:hover{background:#eff6ff}
+.hero{background:#fff;color:#10243a;min-height:0;overflow:hidden}
+.hero:before,.hero-grid,.hero-bottom-line{display:none}
+.hero-content{display:grid;grid-template-columns:.9fr 1.1fr;align-items:center;gap:34px;min-height:430px;padding-top:32px;padding-bottom:32px}
+.hero-copy{max-width:600px}
+.eyebrow{color:#0969d8;letter-spacing:.17em;font-size:12px}
+.eyebrow>span{display:none}
+h1{font-size:clamp(38px,4.2vw,58px);line-height:1.1;color:#10243a;margin-bottom:22px;max-width:590px}
+h1 em,h2 em{color:#1677e8}
+.hero-description{color:#5d6c80;font-size:16px;line-height:1.8;max-width:500px}
+.hero-actions{margin-top:25px}
+.hero-photo{height:410px;min-width:0;border-radius:0 0 0 0;overflow:hidden;background:#f3f6fa}
+.hero-photo img{width:100%;height:100%;display:block;object-fit:cover;object-position:center;image-rendering:auto}
+.trust-strip{background:#f7f9fc;border-top:1px solid #edf0f4;border-bottom:1px solid #edf0f4}
+.trust-inner{min-height:110px}
+.trust-inner i{color:#0969d8}
+.trust-inner .trust-intro{color:#0969d8}
+.section{padding:78px 0}
+.products-section{background:#fff}
+.section-heading h2,.about-copy h2,.contact-grid h2,.quote-inner h2{color:#10243a}
+.eyebrow-dark{color:#0969d8}
+.product-card{border-radius:8px;box-shadow:0 4px 18px rgba(16,36,58,.035)}
+.product-card:hover{border-color:#b8d7fa;box-shadow:0 18px 35px rgba(16,36,58,.08)}
+.product-icon,.product-card>a,.catalog-note i{color:#0969d8}
+.about-section{background:#fff;color:#10243a;border-top:1px solid #edf0f4}
+.about-art{background:#f4f7fb;border:1px solid #e2eaf4;border-radius:10px}
+.about-art:before,.about-art:after{border-color:rgba(9,105,216,.14)}
+.about-art-ring{border-color:rgba(9,105,216,.4)}
+.about-art-content{color:#0969d8}
+.about-art-content span{color:#10243a}
+.about-art-content small,.about-art-caption{color:#64748b}
+.about-copy h2{color:#10243a}
+.about-copy>p:not(.eyebrow){color:#5d6c80}
+.text-link{color:#0969d8}
+.quote-section{background:#f1f6fc}
+.quote-inner h2 em{color:#0969d8}
+.contact-icon{background:#edf5ff;color:#0969d8;border-radius:8px}
+.map-pin{background:#0969d8;color:#fff;border-radius:8px}
+.button-navy{background:#10243a}
+.site-footer{background:#fff;color:#10243a;border-top:1px solid #e5eaf0}
+.footer-inner>p,.copyright{color:#64748b}
+.footer-brand .brand-text strong{color:#10243a}
+.footer-brand .brand-text small{color:#64748b}
+@media(max-width:760px){
+ .nav-wrap{padding:10px 0;min-height:0;gap:10px}
+ .brand-logo{width:195px;max-height:66px}
+ .footer-logo{width:48px}
+ .hero-content{grid-template-columns:1fr;gap:24px;min-height:0;padding-top:30px;padding-bottom:28px}
+ .hero-copy{max-width:none}
+ h1{font-size:clamp(34px,8.8vw,45px);line-height:1.12}
+ .hero-description{font-size:15px}
+ .hero-photo{height:260px;width:100%;border-radius:10px;order:2}
+ .hero-photo img{object-position:center;object-fit:cover}
+ .hero-actions .button{width:auto}
+ .trust-inner{padding:22px 0}
+ .about-section{padding:64px 0}
+}
+@media(max-width:430px){
+ .brand-logo{width:170px;max-height:58px}
+ .nav-cta{font-size:10px;padding:9px 10px}
+ .hero-photo{height:225px}
+ .hero-actions .button{width:100%}
+}
